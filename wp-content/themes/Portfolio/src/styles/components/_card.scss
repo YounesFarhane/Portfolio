@@ -17,6 +17,9 @@
         &:hover {
             transform : translateY(7rem);
         }
+        @include respond(phone) {
+            transform : none;
+        }
     }
     .card {
         height: 25rem;
