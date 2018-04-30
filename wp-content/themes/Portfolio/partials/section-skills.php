@@ -9,52 +9,52 @@
   <div class="row">
     <div class="flex skills">
       <div class="feature-box">
-        <img src="" alt="">
-        <h3 class="heading-tertiary u-margin-bottom-small">HTML</h3>
+        <img src="<?php bloginfo('template_directory'); ?>/src/images/HTML5.png" alt="" class="small-icon">
+        <h3 class="heading-tertiary">HTML</h3>
       </div>
       <div class="feature-box">
-        <img src="" alt="">
-        <h3 class="heading-tertiary u-margin-bottom-small">CSS</h3>
+        <img src="<?php bloginfo('template_directory'); ?>/src/images/CSS3_logo.png" alt="" class="small-icon">
+        <h3 class="heading-tertiary">CSS</h3>
       </div>
       <div class="feature-box">
-        <img src="" alt="">
-        <h3 class="heading-tertiary u-margin-bottom-small">Sass</h3>
+        <img src="<?php bloginfo('template_directory'); ?>/src/images/sass.png" alt="" class="small-icon">
+        <h3 class="heading-tertiary">Sass</h3>
       </div>
       <div class="feature-box">
-        <img src="" alt="">
-        <h3 class="heading-tertiary u-margin-bottom-small">jQuery</h3>
+        <img src="<?php bloginfo('template_directory'); ?>/src/images/code.png" alt="" class="small-icon">
+        <h3 class="heading-tertiary">jQuery</h3>
       </div>
       <div class="feature-box">
-        <img src="" alt="">
-        <h3 class="heading-tertiary u-margin-bottom-small">Javascript</h3>
+        <img src="<?php bloginfo('template_directory'); ?>/src/images/code.png" alt="" class="small-icon">
+        <h3 class="heading-tertiary">Javascript</h3>
       </div>
       <div class="feature-box">
-        <img src="" alt="">
-        <h3 class="heading-tertiary u-margin-bottom-small">Wordpress</h3>
+        <img src="<?php bloginfo('template_directory'); ?>/src/images/wordpress-icon.png" alt="" class="small-icon">
+        <h3 class="heading-tertiary">Wordpress</h3>
       </div>
       <div class="feature-box">
-        <img src="" alt="">
-        <h3 class="heading-tertiary u-margin-bottom-small">Bootstrap</h3>
+        <img src="<?php bloginfo('template_directory'); ?>/src/images/bootstrap-logo.png" alt="" class="small-icon">
+        <h3 class="heading-tertiary">Bootstrap</h3>
       </div>
       <div class="feature-box">
-        <img src="" alt="">
-        <h3 class="heading-tertiary u-margin-bottom-small">Command line</h3>
+        <img src="<?php bloginfo('template_directory'); ?>/src/images/code.png" alt="" class="small-icon">
+        <h3 class="heading-tertiary">Command line</h3>
       </div>
       <div class="feature-box">
-        <img src="" alt="">
-        <h3 class="heading-tertiary u-margin-bottom-small">Git</h3>
+        <img src="<?php bloginfo('template_directory'); ?>/src/images/Git.png" alt="" class="small-icon">
+        <h3 class="heading-tertiary">Git</h3>
       </div>
       <div class="feature-box">
-        <img src="" alt="">
-        <h3 class="heading-tertiary u-margin-bottom-small">Jenkis</h3>
+        <img src="<?php bloginfo('template_directory'); ?>/src/images/code.png" alt="" class="small-icon">
+        <h3 class="heading-tertiary">Jenkis</h3>
       </div>
       <div class="feature-box">
-        <img src="" alt="">
-        <h3 class="heading-tertiary u-margin-bottom-small">Gulp / Grunt</h3>
+        <img src="<?php bloginfo('template_directory'); ?>/src/images/code.png" alt="" class="small-icon">
+        <h3 class="heading-tertiary">Gulp </h3>
       </div>
       <div class="feature-box">
-        <img src="" alt="">
-        <h3 class="heading-tertiary u-margin-bottom-small">PHP</h3>
+        <img src="<?php bloginfo('template_directory'); ?>/src/images/development.png" alt="" class="small-icon">
+        <h3 class="heading-tertiary">PHP</h3>
       </div>
     </div>
   </div>
