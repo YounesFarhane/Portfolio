@@ -7,7 +7,6 @@
     <?php get_template_part( 'partials/section', 'works' ); ?>
 
     <?php get_template_part('partials/section' , 'contact'); ?>
-
 </main>
 
 <?php get_footer();
