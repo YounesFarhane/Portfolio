@@ -24,6 +24,15 @@
         &:hover {
             transform: translateY(-.5rem) scale(1);
         }
+        .heading-tertiary {
+            margin: 0 auto;
+            padding: 1rem 0;
+        }
+        .small-icon {
+            width: 64px;
+            height: 64px;
+            object-fit: contain;
+        }
     }
 }
 
