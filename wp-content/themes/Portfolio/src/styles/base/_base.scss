@@ -1,0 +1,59 @@
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    // This defines what 1rem is
+    font-size: 62.5%; //1 rem = 10px; 10px/16px = 62.5%
+
+    @include respond(tab-land) { // width < 1200?
+        font-size: 56.25%; //1 rem = 9px, 9/16 = 50%
+    }
+
+    @include respond(tab-port) { // width < 900?
+        font-size: 50%; //1 rem = 8px, 8/16 = 50%
+    }
+    
+    @include respond(big-desktop) {
+        font-size: 75%; //1rem = 12, 12/16
+    }
+    font-family: 'Nunito Sans', sans-serif;
+    
+}
+
+body {
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 2rem;
+    font-family: 'Nunito Sans', sans-serif;
+
+    @include respond(tab-port) {
+        padding: 0;
+    }
+}
+
+::selection {
+    background-color: $color-primary;
+    color: $color-white;
+}
+
+.hr {
+    width: 50px;
+    margin: 0 auto;
+    border: 2px solid $color-primary;
+    display: block;
+    &--white {
+        width: 50px;
+        margin: 0 0 0.5em 0;
+        border: 2px solid #fff;
+        text-align: left;
+        display: block;
+    }
+}
+.hideme {
+    opacity: 0;
+}

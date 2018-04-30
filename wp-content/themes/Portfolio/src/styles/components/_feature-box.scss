@@ -1,0 +1,29 @@
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+
+    .feature-box {
+        flex: 1 1 calc(25% - 1rem);
+        margin: 1rem 0;
+        background-color: rgba($color-white, .8);
+        font-size: 1.5rem;
+        margin: .5rem;
+        padding: 2.5rem;
+        text-align: center;
+        border-radius: 3px;
+        box-shadow: 0 1.5rem 4rem rgba($color-black, .15);
+        transition: transform .3s;
+    
+        @include respond(tab-port) {
+            padding: 2rem;
+        }
+    
+        &:hover {
+            transform: translateY(-.5rem) scale(1);
+        }
+    }
+}
+

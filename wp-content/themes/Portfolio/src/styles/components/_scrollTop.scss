@@ -1,0 +1,37 @@
+.scrolltop {
+	display:none;
+	width:100%;
+	margin:0 auto;
+	position:fixed;
+	bottom:60px;
+    right:20px;	
+    @include respond(phone) {
+        bottom: 40px;
+        right: 0px;
+    }
+    .scroll {
+        position:absolute;
+        right:20px;
+        bottom:20px;
+        padding:20px;
+        text-align: center;
+        margin: 0 0 0 0;
+        cursor:pointer;
+        transition: 0.5s;
+        -moz-transition: 0.5s;
+        -webkit-transition: 0.5s;
+        -o-transition: 0.5s; 
+        transform: translate(-50%, -50%);	
+        .svg-inline--fa {
+            font-size:30px;
+            margin-top:-5px;
+            margin-left:1px;
+            transition: 0.5s;
+            -moz-transition: 0.5s;
+            -webkit-transition: 0.5s;
+            -o-transition: 0.5s; 	
+            color: $color-grey-dark;
+        }	
+    }
+}
+
