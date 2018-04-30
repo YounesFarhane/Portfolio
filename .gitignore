@@ -21,8 +21,8 @@ node_modules/
 /wp-content/themes/Portfolio/assets/images/*.jpg
 /wp-content/themes/Portfolio/assets/images/*.gif
 /wp-content/themes/Portfolio/assets/images/*.svg
-/wp-content/themes/Portfolio/assets/scripts/*.js
-/wp-content/themes/Portfolio/assets/styles/*.css
+/wp-content/themes/Portfolio/assets/scripts/**/*.js
+/wp-content/themes/Portfolio/assets/styles/**/*.css
 
 \.DS_Store
 .env
