@@ -25,7 +25,7 @@
         <h3 class="heading-tertiary">jQuery</h3>
       </div>
       <div class="feature-box">
-        <img src="<?php bloginfo('template_directory'); ?>/src/images/code.png" alt="" class="small-icon">
+        <img src="<?php bloginfo('template_directory'); ?>/src/images/javascript.png" alt="" class="small-icon">
         <h3 class="heading-tertiary">Javascript</h3>
       </div>
       <div class="feature-box">
@@ -45,11 +45,11 @@
         <h3 class="heading-tertiary">Git</h3>
       </div>
       <div class="feature-box">
-        <img src="<?php bloginfo('template_directory'); ?>/src/images/code.png" alt="" class="small-icon">
+        <img src="<?php bloginfo('template_directory'); ?>/src/images/jenkis.png" alt="" class="small-icon">
         <h3 class="heading-tertiary">Jenkis</h3>
       </div>
       <div class="feature-box">
-        <img src="<?php bloginfo('template_directory'); ?>/src/images/code.png" alt="" class="small-icon">
+        <img src="<?php bloginfo('template_directory'); ?>/src/images/gulp.png" alt="" class="small-icon">
         <h3 class="heading-tertiary">Gulp </h3>
       </div>
       <div class="feature-box">
