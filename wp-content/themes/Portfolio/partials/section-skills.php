@@ -21,6 +21,10 @@
         <h3 class="heading-tertiary">Sass</h3>
       </div>
       <div class="feature-box">
+        <img src="<?php bloginfo('template_directory'); ?>/src/images/development.png" alt="" class="small-icon">
+        <h3 class="heading-tertiary">PHP</h3>
+      </div>
+      <div class="feature-box">
         <img src="<?php bloginfo('template_directory'); ?>/src/images/code.png" alt="" class="small-icon">
         <h3 class="heading-tertiary">jQuery</h3>
       </div>
@@ -37,24 +41,20 @@
         <h3 class="heading-tertiary">Bootstrap</h3>
       </div>
       <div class="feature-box">
-        <img src="<?php bloginfo('template_directory'); ?>/src/images/code.png" alt="" class="small-icon">
-        <h3 class="heading-tertiary">Command line</h3>
+        <img src="<?php bloginfo('template_directory'); ?>/src/images/gulp.png" alt="" class="small-icon">
+        <h3 class="heading-tertiary">Gulp </h3>
       </div>
       <div class="feature-box">
         <img src="<?php bloginfo('template_directory'); ?>/src/images/Git.png" alt="" class="small-icon">
         <h3 class="heading-tertiary">Git</h3>
       </div>
       <div class="feature-box">
+        <img src="<?php bloginfo('template_directory'); ?>/src/images/code.png" alt="" class="small-icon">
+        <h3 class="heading-tertiary">Command line</h3>
+      </div>
+      <div class="feature-box">
         <img src="<?php bloginfo('template_directory'); ?>/src/images/jenkis.png" alt="" class="small-icon">
         <h3 class="heading-tertiary">Jenkis</h3>
-      </div>
-      <div class="feature-box">
-        <img src="<?php bloginfo('template_directory'); ?>/src/images/gulp.png" alt="" class="small-icon">
-        <h3 class="heading-tertiary">Gulp </h3>
-      </div>
-      <div class="feature-box">
-        <img src="<?php bloginfo('template_directory'); ?>/src/images/development.png" alt="" class="small-icon">
-        <h3 class="heading-tertiary">PHP</h3>
       </div>
     </div>
   </div>
