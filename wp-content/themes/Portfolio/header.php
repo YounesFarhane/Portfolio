@@ -19,26 +19,6 @@
 
      <main>
 
-      <!-- <div class="navigation">
-            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
-
-            <label for="navi-toggle" class="navigation__button">
-                <span class="navigation__icon">&nbsp;</span>
-            </label>
-
-            <div class="navigation__background">&nbsp;</div>
-
-            <nav class="navigation__nav">
-                <ul class="navigation__list">
-                    <li class="navigation__item"><a href="#" class="navigation__link">About Natous</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">Your benfits</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">Popular tours</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">Stories</a></li>
-                    <li class="navigation__item"><a href="#" class="navigation__link">Book now</a></li>
-                    </ul>
-            </nav>
-        </div> -->
-
         <header class="header" id="header">
             <div class="header__logo-box">
                   <a href="<?php echo esc_url( home_url( '/' ) ); ?>">
@@ -48,10 +28,10 @@
 
             <div class="header__text-box">
                 <h1 class="heading-primary">
-                    <span class="heading-primary--main">Younes Farhane</span>
-                    <span class="heading-primary--sub">Web developper Front End based in Montreal, Canada</span>
+                    <span class="heading-primary--main"><?php the_field('title_header' , 'options') ;?></span>
+                    <span class="heading-primary--sub"><?php the_field('content_header' , 'options') ;?></span>
                 </h1>
 
-                <a href="#section-tours" class="btn  btn--animated">Discover my works</a>
+                <a href="#section-tours" class="btn  btn--animated"><?php the_field('title_link_header', 'options') ;?></a>
             </div>
         </header>
