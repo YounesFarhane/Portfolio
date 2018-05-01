@@ -13,11 +13,9 @@
                     </div>
                     <div class="col-1-of-2">
                         <div class="composition">
-                            <img srcset="<?php bloginfo('template_directory'); ?>/src/images/nat-1.jpg 300w, <?php bloginfo('template_directory'); ?>/src/images/nat-1-large.jpg 1000w"
-                                 sizes="(max-width: 56.25em) 20vw, (max-width: 37.5em) 30vw, 300px"
-                                 alt="Photo 1"
+                            <img srcset="<?php bloginfo('template_directory'); ?>/src/images/YF_picture.jpg 300w" alt="Photo 1"
                                  class="composition__photo composition__photo--p1"
-                                 src="<?php bloginfo('template_directory'); ?>/src/images/nat-1-large.jpg">
+                                 src="<?php bloginfo('template_directory'); ?>/src/images/YF_picture.jpg">
                         </div>
                     </div>
                 </div>
