@@ -1,91 +1,24 @@
 <section class="section-tours hideme" id="section-tours">
     <div class="u-center-text u-margin-bottom-big">
-        <h2 class="heading-secondary">Works</h2>
+        <h2 class="heading-secondary"><?php the_field('title_works'); ?></h2>
         <div class="hr"></div>
     </div>
 <div class="row">
+    <?php if( have_rows('block_project') ): ?>
     <div class="block__content">
-
+        <?php while ( have_rows('block_project') ): the_row() ;?>
             <article class="column card has-image">
                 <div class="cover-image">
-                    <img src="" alt="">
+                    <img src="<?php the_sub_field('image'); ?>" alt="">
                 </div>
                 <a href="" class="item_content">
-                    <h3 class="heading-tertiary"> Project 1 </h3>
-                    <p>Wordpress website</p>
+                    <h3 class="heading-tertiary"> <?php the_sub_field('title'); ?> </h3>
+                    <p><?php the_sub_field('sub_heading'); ?></p>
                 </a>
             </article>
-
-
-            <article class="column card has-image">
-                <div class="cover-image">
-                    <img src="" alt="">
-                </div>
-                <a href="" class="item_content">
-                    <h3 class="heading-tertiary">
-                            Project 2
-                    </h3>
-                    <p>Wordpress website</p>
-                </a>
-            </article>
-
-            <article class="column card has-image">
-                <div class="cover-image">
-                    <img src="" alt="">
-                </div>
-                <a href="" class="item_content">
-                    <h3 class="heading-tertiary">
-                            Project 3
-                    </h3>
-                    <p>Wordpress website</p>
-                </a>
-            </article>
-
-
-            <article class="column card has-image">
-                <div class="cover-image">
-                    <img src="" alt="">
-                </div>
-                <a href="" class="item_content">
-                    <h3 class="heading-tertiary">
-                            Project 4
-                    </h3>
-                    <p>Wordpress website</p>
-                </a>
-            </article>
-
-            <article class="column card has-image">
-                <div class="cover-image">
-                    <img src="" alt="">
-                </div>
-                <a href="" class="item_content">
-                    <h3 class="heading-tertiary">
-                            Project 5
-                    </h3>
-                    <p>Wordpress website</p>
-                </a>
-            </article>
-
-
-            <article class="column card has-image">
-                <div class="cover-image">
-                    <img src="" alt="">
-                </div>
-                <a href="" class="item_content">
-                    <h3 class="heading-tertiary">
-                            Project 6
-                    </h3>
-                    <p>Wordpress website</p>
-                </a>
-            </article>
-
+        <?php endwhile; ?>
     </div>
+    <?php endif; wp_reset_postdata();?>
         
 </div>
 </section>
-
-<style>
-    
-    
-    
-</style>
