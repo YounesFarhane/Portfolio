@@ -94,6 +94,12 @@ if( function_exists('acf_add_options_page') ) {
 		'page_title' 	=> 'Theme Footer Settings',
 		'menu_title'	=> 'Footer',
 		'parent_slug'	=> 'theme-general-settings',
+  ));
+  
+  acf_add_options_sub_page(array(
+		'page_title' 	=> 'Theme Contact Settings',
+		'menu_title'	=> 'Contact',
+		'parent_slug'	=> 'theme-general-settings',
 	));
 	
 }
