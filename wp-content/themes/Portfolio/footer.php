@@ -17,11 +17,11 @@
             <div class="row">
                 <div class="footer__element">
                     <div class="footer__element--name ">
-                        <h2 class="heading-secondary">Younes Farhane</h2>
-                        <p class="paragraph u-center-text">Web developer Front End, autodidact, tech writer and problem solver. I love building communities.</p>
+                        <h2 class="heading-secondary"><?php the_field('title_footer' , 'options'); ?></h2>
+                        <p class="paragraph u-center-text"><?php the_field('content_footer' , 'options') ;?></p>
                     </div>
                     <div class="footer__social">
-                        <a href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a href="<?php the_field('link_social_media', 'options'); ?>"><i class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
             </div>
@@ -29,7 +29,7 @@
         <footer class="footer__bottom">
             <div class="row">
             <div class="footer__copyright">
-                    <p class="copyright">&copy; <?php echo date("Y"); ?> Younes Farhane. All Rights Reserved.</p>
+                    <p class="copyright">&copy; <?php echo date("Y"); ?> <?php the_field('content_copyright_footer' , 'options') ;?></p>
                 </div>
             </div>
         </footer>
