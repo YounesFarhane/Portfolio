@@ -1,61 +1,21 @@
 <section class="section-features hideme">
   <div class="u-center-text u-margin-bottom-big">
     <h2 class="heading-secondary">
-      Technical Skills
+      <?php the_field( 'title_skills' ) ; ?>
     </h2>
     <div class="hr "></div>
-    <p class="paragraph">I specialize in front end development and design, with knowledge in system administration and back end development.</p>
+    <p class="paragraph"><?php the_field( 'content_skills' ) ;?></p>
   </div>
   <div class="row">
+    <?php if( have_rows('block_skills') ): ?>
     <div class="flex skills">
+    <?php while ( have_rows('block_skills') ) : the_row(); ?>
       <div class="feature-box">
-        <img src="<?php bloginfo('template_directory'); ?>/src/images/HTML5.png" alt="" class="small-icon">
-        <h3 class="heading-tertiary">HTML</h3>
+        <img src="<?php the_sub_field( 'icon_skills' ); ?>" alt="" class="small-icon">
+        <h3 class="heading-tertiary"><?php the_sub_field( 'title' ) ;?></h3>
       </div>
-      <div class="feature-box">
-        <img src="<?php bloginfo('template_directory'); ?>/src/images/CSS3_logo.png" alt="" class="small-icon">
-        <h3 class="heading-tertiary">CSS</h3>
-      </div>
-      <div class="feature-box">
-        <img src="<?php bloginfo('template_directory'); ?>/src/images/sass.png" alt="" class="small-icon">
-        <h3 class="heading-tertiary">Sass</h3>
-      </div>
-      <div class="feature-box">
-        <img src="<?php bloginfo('template_directory'); ?>/src/images/development.png" alt="" class="small-icon">
-        <h3 class="heading-tertiary">PHP</h3>
-      </div>
-      <div class="feature-box">
-        <img src="<?php bloginfo('template_directory'); ?>/src/images/code.png" alt="" class="small-icon">
-        <h3 class="heading-tertiary">jQuery</h3>
-      </div>
-      <div class="feature-box">
-        <img src="<?php bloginfo('template_directory'); ?>/src/images/javascript.png" alt="" class="small-icon">
-        <h3 class="heading-tertiary">Javascript</h3>
-      </div>
-      <div class="feature-box">
-        <img src="<?php bloginfo('template_directory'); ?>/src/images/wordpress-icon.png" alt="" class="small-icon">
-        <h3 class="heading-tertiary">Wordpress</h3>
-      </div>
-      <div class="feature-box">
-        <img src="<?php bloginfo('template_directory'); ?>/src/images/bootstrap-logo.png" alt="" class="small-icon">
-        <h3 class="heading-tertiary">Bootstrap</h3>
-      </div>
-      <div class="feature-box">
-        <img src="<?php bloginfo('template_directory'); ?>/src/images/gulp.png" alt="" class="small-icon">
-        <h3 class="heading-tertiary">Gulp </h3>
-      </div>
-      <div class="feature-box">
-        <img src="<?php bloginfo('template_directory'); ?>/src/images/Git.png" alt="" class="small-icon">
-        <h3 class="heading-tertiary">Git</h3>
-      </div>
-      <div class="feature-box">
-        <img src="<?php bloginfo('template_directory'); ?>/src/images/code.png" alt="" class="small-icon">
-        <h3 class="heading-tertiary">Command line</h3>
-      </div>
-      <div class="feature-box">
-        <img src="<?php bloginfo('template_directory'); ?>/src/images/jenkis.png" alt="" class="small-icon">
-        <h3 class="heading-tertiary">Jenkis</h3>
-      </div>
+    <?php endwhile; ?>
     </div>
+<?php endif; ?>
   </div>
 </section>
