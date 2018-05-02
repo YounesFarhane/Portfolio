@@ -9,13 +9,13 @@
         <?php while ( have_rows('block_project') ): the_row() ;?>
             <article class="column card has-image">
             <a href="<?php the_sub_field('link'); ?>" class="item_content" target="_blank">
-                <div class="cover-image">
-                    <img src="<?php the_sub_field('image'); ?>" alt="">
+                <div class="cover-image" style="background-image:url('<?php the_sub_field('image'); ?>');">
                 </div>
-                
-                    <h3 class="heading-tertiary"> <?php the_sub_field('title'); ?> </h3>
-                    <p><?php the_sub_field('sub_heading'); ?></p>
-                </a>
+                <div class="cover-body">
+                    <h3 class="heading-tertiary"><?php the_sub_field('title'); ?></h3>
+                    <p class="paragraph"><?php the_sub_field('sub_heading'); ?></p>
+                </div>
+            </a>
             </article>
         <?php endwhile; ?>
     </div>
