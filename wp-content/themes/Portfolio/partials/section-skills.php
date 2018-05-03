@@ -1,4 +1,4 @@
-<section class="section-features hideme">
+<section class="section-features section">
   <div class="u-center-text u-margin-bottom-big">
     <h2 class="heading-secondary">
       <?php the_field( 'title_skills' ) ; ?>

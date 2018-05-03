@@ -13,7 +13,7 @@
     */
 ?>
 
-<footer class="footer" id="footer">
+<footer class="footer section" id="footer">
             <div class="row">
                 <div class="footer__element">
                     <div class="footer__element--name ">
@@ -26,7 +26,7 @@
                 </div>
             </div>
         </footer>
-        <footer class="footer__bottom">
+        <footer class="footer__bottom section">
             <div class="row">
             <div class="footer__copyright">
                     <p class="copyright">&copy; <?php echo date("Y"); ?> <?php the_field('content_copyright_footer' , 'options') ;?></p>

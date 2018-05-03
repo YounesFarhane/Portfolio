@@ -1,4 +1,4 @@
-<section class="section-book hideme">
+<section class="section-contact section">
     <div class="row">
         <div class="book">
             <div class="u-margin-bottom-medium">
