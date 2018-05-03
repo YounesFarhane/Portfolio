@@ -2,7 +2,7 @@
     position: relative;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     align-content: center;
     flex-wrap: wrap;
@@ -32,8 +32,8 @@
         flex-direction: column;
         justify-content: flex-end;
         border-radius: .25rem;
-        width: 46%;
-        margin: 0 auto;
+        width: 48%;
+        margin: 0;
         &.has-image{
             position: relative;
             background-size: cover;
@@ -53,17 +53,20 @@
         bottom: 0;
         padding: 1rem 2rem;
         width: 100%;
+        background-color: #2a2c339c;
         .heading-tertiary {
             font-size: 2rem;
             color: $color-white;
             letter-spacing: 0.2rem;
             font-weight: 600;
-            margin-bottom: 1rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.1;
         }
         .paragraph {
             color: $color-white;
-            font-size: $default-font-size;
+            font-size: 1.3rem;
             letter-spacing: 0.2rem;
+            margin-bottom: 0.5rem;
         }
     }
     }
