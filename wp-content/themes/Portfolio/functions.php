@@ -66,6 +66,7 @@ function portfolio_enqueue_scripts()
 {
   wp_enqueue_script( 'jQuery', 'https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js', null, true );
   wp_enqueue_script( 'font-awesome', 'https://use.fontawesome.com/releases/v5.0.10/js/all.js', null, true);
+  wp_enqueue_script( 'Scrollreveal', 'https://unpkg.com/scrollreveal/dist/scrollreveal.min.js', null, true );
   wp_enqueue_script( 'app', get_template_directory_uri().'/assets/scripts/app.js', null, true );
 }
 add_action( 'wp_enqueue_scripts', 'portfolio_enqueue_scripts' );

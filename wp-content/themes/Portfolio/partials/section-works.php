@@ -1,4 +1,4 @@
-<section class="section-tours hideme" id="section-tours">
+<section class="section-works section" id="section-works">
     <div class="u-center-text u-margin-bottom-big">
         <h2 class="heading-secondary"><?php the_field('title_works'); ?></h2>
         <div class="hr"></div>
