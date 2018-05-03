@@ -43,6 +43,6 @@
                     <span class="heading-primary--sub"><?php the_field('content_header' , 'options') ;?></span>
                 </h1>
 
-                <a href="#section-tours" class="btn  btn--animated"><?php the_field('title_link_header', 'options') ;?></a>
+                <a href="#section-works" class="btn  btn--animated"><?php the_field('title_link_header', 'options') ;?></a>
             </div>
         </header>
